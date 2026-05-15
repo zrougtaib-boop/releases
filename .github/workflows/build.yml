@@ -2,6 +2,7 @@ name: Build JSON
 
 on:
   push:
+  workflow_dispatch:
     branches:
       - main
   schedule:
